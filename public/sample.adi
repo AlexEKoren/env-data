@@ -1,0 +1,42 @@
+**AERMOD Input File**
+**Environmental Data Configuration**
+
+SO LOCATION STACK1 100.0 200.0 50.0
+SO LOCATION STACK2 150.0 250.0 45.0
+
+SO SRCPARAM STACK1 <EMISSION_RATE> V2 V3 V4 V5
+SO SRCPARAM STACK2 <EMISSION_RATE> V2 V3 V4 V5
+
+**Pollutant Information**
+**Source: STACK1**
+**Pollutant: <POLLUTANT_NAME_1>
+**CAS: <CAS_1>
+**Short Term Rate: <SHORT_TERM_RATE_1>
+**Annual Rate: <ANNUAL_RATE_1>
+**Time Interval: <TIME_INTERVAL_1>
+**Annual Report: <ANNUAL_REPORT_1>
+
+**Source: STACK1**
+**Pollutant: <POLLUTANT_NAME_2>
+**CAS: <CAS_2>
+**Short Term Rate: <SHORT_TERM_RATE_2>
+**Annual Rate: <ANNUAL_RATE_2>
+**Time Interval: <TIME_INTERVAL_2>
+**Annual Report: <ANNUAL_REPORT_2>
+
+**Source: STACK2**
+**Pollutant: <POLLUTANT_NAME_1>
+**CAS: <CAS_1>
+**Short Term Rate: <SHORT_TERM_RATE_1>
+**Annual Rate: <ANNUAL_RATE_1>
+**Time Interval: <TIME_INTERVAL_1>
+**Annual Report: <ANNUAL_REPORT_1>
+
+**Source: STACK2**
+**Pollutant: <POLLUTANT_NAME_2>
+**CAS: <CAS_2>
+**Short Term Rate: <SHORT_TERM_RATE_2>
+**Annual Rate: <ANNUAL_RATE_2>
+**Time Interval: <TIME_INTERVAL_2>
+**Annual Report: <ANNUAL_REPORT_2>
+

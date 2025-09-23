@@ -518,7 +518,8 @@ const replaceOuSection = (
     console.log(`✅ Found OU STARTING/OU FINISHED section`);
 
     // Remove .txt extension from filename for .plt file
-    const plotFilename = filename.replace(/\.txt$/, ".plt");
+    let plotFilename = filename.replace(/\.txt$/, ".plt");
+    plotFilename = filename.replace(/\.inp$/, ".plt");
 
     let replacementContent;
 
@@ -576,7 +577,7 @@ export const generateFilename = (
   hasDownwash,
   year,
   emissionType,
-  extension = "txt"
+  extension = "inp"
 ) => {
   const downwashSuffix = hasDownwash ? "_dw" : "_nd";
   // Use "ANN" for annual files, otherwise use the interval
